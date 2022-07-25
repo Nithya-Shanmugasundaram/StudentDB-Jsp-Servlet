@@ -1,0 +1,7 @@
+<Context reloadable="true" privileged="true">
+<Realm className="org.apache.catalina.realm.JAASRealm"
+	appName="test_auth"
+	userClassNames="auth.UserPrincipal"
+	roleClassNames="auth.RolePrincipal" />
+
+</Context>
